@@ -47,12 +47,12 @@
 
         <!-- MySQL Driver (uncomment if using MySQL) -->
         <!--        &lt;!&ndash; -->
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.33</version>
+            <version>${mysql.version}</version>  <!-- USE PROPERTY -->
         </dependency>
-
 
         <!-- PostgreSQL Driver (uncomment if using PostgreSQL) -->
         <!--
